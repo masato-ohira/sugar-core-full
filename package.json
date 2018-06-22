@@ -1,0 +1,32 @@
+{
+  "name": "sugar-core-full",
+  "description": "Core module for the Sugar Javascript utility library.",
+  "version": "2.0.4-full",
+  "homepage": "https://sugarjs.com/",
+  "icon": "https://sugarjs.com/icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewplummer/Sugar.git",
+    "git": "git add . && git commit -a -m 'auto commit'"
+  },
+  "license": "MIT",
+  "author": "Andrew Plummer <plummer.andrew@gmail.com>",
+  "keywords": [
+    "sugar",
+    "sugarjs",
+    "functional",
+    "browser",
+    "utility",
+    "util"
+  ],
+  "bugs": {
+    "url": "https://github.com/andrewplummer/Sugar/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.23"
+  },
+  "browser": {
+    "buffer": false
+  },
+  "main": "sugar-core.js"
+}
